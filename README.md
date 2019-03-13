@@ -1,5 +1,7 @@
 # Spatial-Database-and-JS-Spirograph
-A KML based short project where coordinates were plotted on Google Earth and spatial DB queries were executed.
+A KML based short project where coordinates were plotted on Google Earth and spatial DB queries were executed. 
+
+(DB Used: PostGRE DB with PostGIS extension)
 
 Step 1. Collecting various coordinates 
 
