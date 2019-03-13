@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="transBluePoly">
+      <LineStyle>
+        <width>5</width>
+        <color>64F00014</color>
+      </LineStyle>
+      <PolyStyle>
+      <color>f14F0FF</color>
+      </PolyStyle>
+    
+    </Style>
+
+
+
+<Placemark>
+    <name>The Pentagon</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+          
+            -118.283558,34.018421,10
+            -118.291501,34.018464,10
+            -118.288718,34.031061,10
+            -118.276454,34.019183,10
+            -118.283558,34.018421,10
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+
+<Style id = "Nearest">
+<LineStyle>
+<width>5</width>
+<color>641400FF</color>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Nearest 1</name>
+<styleUrl>#Nearest</styleUrl>
+<LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates> 
+            -118.288718,34.03106,10
+            -118.287775,34.024367,10
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Nearest 2</name>
+<styleUrl>#Nearest</styleUrl>
+<LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+            -118.288718,34.03106,10
+            -118.28931,34.021289,10
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Nearest 3</name>
+<styleUrl>#Nearest</styleUrl>
+<LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+            -118.288718,34.03106,10
+            -118.282601,34.022612,10
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Nearest 4</name>
+<styleUrl>#Nearest</styleUrl>
+<LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+            -118.288718,34.03106,10
+            -118.286345,34.020852,10
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Nearest 5</name>
+<styleUrl>#Nearest</styleUrl>
+<LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+            -118.288718,34.03106,10
+            -118.283516,34.021579,10
+        
+        </coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>
